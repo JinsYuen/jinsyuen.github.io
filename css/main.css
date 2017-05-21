@@ -672,14 +672,14 @@ pre .javascript .function {
 .page-post-detail .post-type-quote blockquote::before {
   top: -20px;
   background-image: url("../images/quote-l.svg");
-  border-top: 1px solid #ccc;
+  border-top: 1px solid $grey-light;
 }
 .blockquote-center::after,
 .page-home .post-type-quote blockquote::after,
 .page-post-detail .post-type-quote blockquote::after {
   bottom: -20px;
   background-image: url("../images/quote-r.svg");
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid $grey-light;
   background-position: 100% 8px;
 }
 .blockquote-center p,
@@ -893,8 +893,8 @@ pre .javascript .function {
 }
 .pagination .page-number.current {
   color: #fff;
-  background: #ccc;
-  border-top-color: #ccc;
+  background: $grey-light;
+  border-top-color: $grey-light;
 }
 @media (max-width: 767px) {
   .pagination {
@@ -1155,7 +1155,7 @@ pre .javascript .function {
 .posts-expand .post-body h6 .header-anchor {
   float: right;
   margin-left: 10px;
-  color: #ccc;
+  color: $grey-light;
   border-bottom-style: none;
   visibility: hidden;
 }
@@ -1180,6 +1180,7 @@ pre .javascript .function {
   box-sizing: border-box;
   margin: auto;
   padding: 3px;
+  border: 0px solid #ddd;
 }
 .posts-expand .fancybox img {
   margin: 0 auto;
@@ -1247,7 +1248,7 @@ pre .javascript .function {
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
   transition-property: border;
-  border-bottom: 1px dashed #ccc;
+  border-bottom: 1px dashed $grey-light;
 }
 .posts-collapse .post-header::before {
   content: " ";
@@ -1497,7 +1498,7 @@ pre .javascript .function {
   margin: 80px auto 60px;
   width: 8%;
   height: 1px;
-  background: #ccc;
+  background: $grey-light;
   text-align: center;
 }
 .post:last-child .post-eof.post-eof.post-eof {
@@ -1684,7 +1685,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffbbf2;
+  background: #beffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1761,7 +1762,7 @@ pre .javascript .function {
   transition-delay: 0s;
   transition-property: all;
   color: #666;
-  border-bottom-color: #ccc;
+  border-bottom-color: $grey-light;
 }
 .post-toc ol a:hover {
   color: #000;
@@ -2760,8 +2761,8 @@ pre .javascript .function {
   text-decoration: underline;
 }
 .feed-link {
-  border-top: 1px dotted #ccc;
-  border-bottom: 1px dotted #ccc;
+  border-top: 1px dotted $grey-light;
+  border-bottom: 1px dotted $grey-light;
   text-align: center;
 }
 .feed-link a {
@@ -2817,7 +2818,7 @@ pre .javascript .function {
 .links-of-blogroll {
   margin-top: 20px;
   padding: 3px 0 0;
-  border-top: 1px dotted #ccc;
+  border-top: 1px dotted $grey-light;
 }
 .links-of-blogroll-title {
   margin-top: 0;
